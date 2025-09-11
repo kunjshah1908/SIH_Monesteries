@@ -1,6 +1,7 @@
 import rumtekImage from '../assets/rumtek.jpg';
 import rumtekImage2 from '../assets/rumtek2.jpg';
 import rumtekImage3 from '../assets/rumtek3.jpg';
+
 import { useState } from 'react';
 import { ArrowLeft, Camera, ChevronLeft, ChevronRight, MapPin, Calendar, Users, Star, Bus, Car, Plane } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -678,7 +679,7 @@ export default function RumtekMonastery() {
               </p>
             </div>
             <div className="md:w-2/5 mt-6 md:mt-0 flex-shrink-0">
-              <img src={rumtekImage} alt="Rumtek Monastery - Living Heart" className="rounded-xl shadow-lg w-full h-56 object-cover" />
+              <img src={rumtekImage2} alt="Rumtek Monastery - Living Heart" className="rounded-xl shadow-lg w-full h-56 object-cover" />
             </div>
           </div>
 
@@ -697,7 +698,7 @@ export default function RumtekMonastery() {
               </p>
             </div>
             <div className="md:w-2/5 mt-6 md:mt-0 flex-shrink-0">
-              <img src={rumtekImage} alt="Rumtek Monastery - Architecture" className="rounded-xl shadow-lg w-full h-56 object-cover" />
+              <img src={rumtekImage3} alt="Rumtek Monastery - Architecture" className="rounded-xl shadow-lg w-full h-56 object-cover" />
             </div>
           </div>
 
@@ -735,7 +736,7 @@ export default function RumtekMonastery() {
               </p>
             </div>
             <div className="md:w-2/5 mt-6 md:mt-0 flex-shrink-0">
-              <img src={rumtekImage} alt="Rumtek Monastery - Sanctuary for Seekers" className="rounded-xl shadow-lg w-full h-56 object-cover" />
+              <img src={rumtekImage2} alt="Rumtek Monastery - Sanctuary for Seekers" className="rounded-xl shadow-lg w-full h-56 object-cover" />
             </div>
           </div>
         </div>
